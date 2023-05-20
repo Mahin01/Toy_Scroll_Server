@@ -1,5 +1,7 @@
-{
-    "Sports Cars": [
+[
+  {
+    "category": "Sports Cars",
+    "items": [
       {
         "picture": "path/to/sports_car1.jpg",
         "name": "Red Sports Car",
@@ -18,8 +20,11 @@
         "price": "$18.99",
         "rating": 4.7
       }
-    ],
-    "Monster Trucks": [
+    ]
+  },
+  {
+    "category": "Monster Trucks",
+    "items": [
       {
         "picture": "path/to/monster_truck1.jpg",
         "name": "Big Monster Truck",
@@ -38,8 +43,11 @@
         "price": "$26.99",
         "rating": 4.8
       }
-    ],
-    "Convertibles": [
+    ]
+  },
+  {
+    "category": "Convertibles",
+    "items": [
       {
         "picture": "path/to/convertible1.jpg",
         "name": "Yellow Convertible",
@@ -59,4 +67,5 @@
         "rating": 4.3
       }
     ]
-  }  
+  }
+]
