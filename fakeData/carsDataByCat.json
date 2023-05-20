@@ -1,0 +1,62 @@
+{
+    "Sports Cars": [
+      {
+        "picture": "path/to/sports_car1.jpg",
+        "name": "Red Sports Car",
+        "price": "$19.99",
+        "rating": 4.5
+      },
+      {
+        "picture": "path/to/sports_car2.jpg",
+        "name": "Yellow Sports Car",
+        "price": "$21.99",
+        "rating": 4.2
+      },
+      {
+        "picture": "path/to/sports_car3.jpg",
+        "name": "Blue Sports Car",
+        "price": "$18.99",
+        "rating": 4.7
+      }
+    ],
+    "Monster Trucks": [
+      {
+        "picture": "path/to/monster_truck1.jpg",
+        "name": "Big Monster Truck",
+        "price": "$24.99",
+        "rating": 4.1
+      },
+      {
+        "picture": "path/to/monster_truck2.jpg",
+        "name": "Green Monster Truck",
+        "price": "$22.99",
+        "rating": 4.4
+      },
+      {
+        "picture": "path/to/monster_truck3.jpg",
+        "name": "Purple Monster Truck",
+        "price": "$26.99",
+        "rating": 4.8
+      }
+    ],
+    "Convertibles": [
+      {
+        "picture": "path/to/convertible1.jpg",
+        "name": "Yellow Convertible",
+        "price": "$16.99",
+        "rating": 3.9
+      },
+      {
+        "picture": "path/to/convertible2.jpg",
+        "name": "Black Convertible",
+        "price": "$20.99",
+        "rating": 4.6
+      },
+      {
+        "picture": "path/to/convertible3.jpg",
+        "name": "White Convertible",
+        "price": "$17.99",
+        "rating": 4.3
+      }
+    ]
+  }  
