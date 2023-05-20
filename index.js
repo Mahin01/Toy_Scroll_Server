@@ -5,8 +5,14 @@ const port = process.env.PORT || 5000;
 
 app.use(cors());
 
+const carDataByCat = require("./fakeData/carsDataByCat.json");
+
 app.get("/", (req, res) => {
   res.send("Toy Scrolls server Running");
+});
+
+app.get("/cars-by-category", (req, res) => {
+  res.send(carDataByCat);
 });
 
 app.listen(port, () => {
