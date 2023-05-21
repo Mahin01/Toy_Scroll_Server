@@ -34,6 +34,23 @@ async function run() {
       res.send(result);
     });
 
+    app.get('/toy-details/:id', async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) }
+
+      const options = {
+          // Include only the `title` and `imdb` fields in the returned document
+          projection: { 
+            seller_name: 1, price: 1, seller_email :1, 
+            ToyName:1, quantity:1, Photo_URL: 1 },
+      };
+
+      const result = await allToysCollection.findOne(query, options);
+      res.send(result);
+    });
+
+    
+
     app.post('/add-toy', async (req, res) => {
       const newToy = req.body;
       console.log(newToy);
