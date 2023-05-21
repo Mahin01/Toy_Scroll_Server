@@ -29,7 +29,7 @@ async function run() {
     const allToysCollection = client.db("toy-scroll").collection("all-toys");
 
     app.get("/all-toys", async (req, res) => {
-      const cursor = allToysCollection.find();
+      const cursor = allToysCollection.find().limit(20);
       const result = await cursor.toArray();
       res.send(result);
     });
